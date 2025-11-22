@@ -1,6 +1,6 @@
-# Grafical
+# Complex
 
-**Grafical** is a Python tool for visualizing complex functions. It generates:
+**Complex** is a Python tool for visualizing complex functions. It generates:
 - **Bode Plots**: 2D frequency response (Magnitude and Phase).
 - **Laplace Surfaces**: 3D visualizations of magnitude over the complex plane, colored by phase.
 
@@ -18,7 +18,7 @@ To create a new function, inherit from `ComplexFunction` and implement the `f` m
 
 ```python
 import overrides
-from grafical import ComplexFunction
+from complex_function import ComplexFunction
 
 class MyFunction(ComplexFunction):
     @overrides.overrides
