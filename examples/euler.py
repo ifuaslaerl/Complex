@@ -1,6 +1,6 @@
 import overrides
 import numpy as np
-from grafical import ComplexFunction
+from complex_function import ComplexFunction
 
 class EulerFunction(ComplexFunction):
     # 1. Remove @staticmethod from __init__

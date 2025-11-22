@@ -1,10 +1,9 @@
 import overrides
-from grafical import ComplexFunction
+from complex_function import ComplexFunction
 
 class StepFunction(ComplexFunction):
-    @staticmethod
     @overrides.overrides
-    def f(s: complex) -> complex:
+    def f(self, s: complex) -> complex:
         return s
 
 def main():
