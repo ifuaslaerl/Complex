@@ -1,6 +1,6 @@
-# Grafical
+# Complex
 
-**Grafical** é uma ferramenta Python para visualização de funções complexas. Ela gera:
+**Complex** é uma ferramenta Python para visualização de funções complexas. Ela gera:
 - **Diagramas de Bode**: Resposta em frequência 2D (Magnitude e Fase).
 - **Superfícies de Laplace**: Visualizações 3D da magnitude sobre o plano complexo, coloridas pela fase.
 
@@ -10,18 +10,6 @@ Requer Python 3.9+.
 
 ```bash
 pip install .
-```
-
-## Uso Básico
-
-Para executar as funções de exemplo incluídas no pacote:
-
-```bash
-# Se instalado no ambiente
-python -m grafical.main
-
-# Ou diretamente do código fonte
-python src/grafical/main.py
 ```
 
 ## Criando Suas Próprias Funções
